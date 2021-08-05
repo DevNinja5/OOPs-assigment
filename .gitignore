@@ -1,3 +1,7 @@
 *.class
+<<<<<<< HEAD
 *.classpath
 target/
+=======
+*.log
+>>>>>>> b0ca38f38c4f5dcbbe2597d166b8bb74c684e17e
