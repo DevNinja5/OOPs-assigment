@@ -6,8 +6,9 @@ trait Queue {
     list.remove(0)
   }
   def enqueue(list: ListBuffer[Int]): Unit = {
-    println("Enter a value to enqueue: ")
+    println("\nEnter a value to enqueue: ")
     var num=readInt()
     list.addOne(num)
+    println(num+" is queued")
   }
 }
